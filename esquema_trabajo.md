@@ -23,7 +23,11 @@ Algortimos para aplicar:
 
 ## Tercer parte: Importancia de caracteristicas  
 Buscar las caracteristicas más relevantes tanto por arboles como por el método de barajar una características y evaluar los errores (crear función).   
-Al final definir las más importantes y volver a construir y evaluar el modelo.  
+Al final definir las más importantes y volver a construir y evaluar el modelo.   
+
+Si sobrara tiempo, estudiar los algoritmos de reducción de características etc.  
+> PCA  
+> etc.  
 
 ## Cuarta parte: Ensembles  
 
