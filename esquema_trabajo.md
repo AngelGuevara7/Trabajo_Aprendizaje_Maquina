@@ -23,7 +23,11 @@ Algortimos para aplicar:
 
 ## Tercer parte: Importancia de caracteristicas  
 Buscar las caracteristicas más relevantes tanto por arboles como por el método de barajar una características y evaluar los errores (crear función).   
-Al final definir las más importantes y volver a construir y evaluar el modelo.  
+Al final definir las más importantes y volver a construir y evaluar el modelo.   
+
+Si sobrara tiempo, estudiar los algoritmos de reducción de características etc.  
+> PCA  
+> etc.  
 
 ## Cuarta parte: Ensembles  
 
@@ -52,4 +56,21 @@ Probarlo si se puede, y mencionar en el trabajo que se probó pero no suponía u
 > ¿A qué se refiere con lo de validación usando los datos no etiquetados?  
 > ¿A qué se refiere con lo de **los diferentes conjuntos de entrenamiento**?  
 > ¿Usar el 50% de representantes igual no es lo mejor para algunos algoritmos, para MLP usar todo es mejor que usar la mitad, pero para Kernels si es mejor?   
-> 
+
+
+## Reparto  
+
+**Arturo**  
+> Uso para la reducción 50% de kmediois, kmeans y gaussianas  
+> Algortimos supervisados   
+> Ensembles, lo basico, random forest y bagging.   
+
+
+**Angel**  
+> Explicacion clustering inicial audio ---> conjunto de trabajo. (creación del dataset (habían 3 opciones)) 
+> Algoritmos clustering  
+> Seleccion de caracteristicas en plan sencillo (trees.important_features_ y ¿¿algún método ya hecho de sklearn??)   
+
+**Ambos**  
+> Funcion de seleccion de caracteristicas y reduccion de la dimensionalidad, posible uso de PCA y del estilo.   
+> Ensembles mas tochos estilo AdaBoost, mixtura de expertos etc.  
