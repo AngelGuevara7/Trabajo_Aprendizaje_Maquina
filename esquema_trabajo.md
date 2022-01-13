@@ -56,7 +56,7 @@ Probarlo si se puede, y mencionar en el trabajo que se probó pero no suponía u
 > ¿A qué se refiere con lo de validación usando los datos no etiquetados?  
 > ¿A qué se refiere con lo de **los diferentes conjuntos de entrenamiento**?  
 > ¿Usar el 50% de representantes igual no es lo mejor para algunos algoritmos, para MLP usar todo es mejor que usar la mitad, pero para Kernels si es mejor?   
-
+> **¿Deberiamos normalizar, estandarizar o algo los datos del input?**
 
 ## Reparto  
 
