@@ -58,7 +58,7 @@ Probarlo si se puede, y mencionar en el trabajo que se probó pero no suponía u
 > ¿Usar el 50% de representantes igual no es lo mejor para algunos algoritmos, para MLP usar todo es mejor que usar la mitad, pero para Kernels si es mejor?   
 > **¿Deberiamos normalizar, estandarizar o algo los datos del input?**
 
-## Reparto  
+## Primer Reparto  
 
 **Arturo**  
 > Uso para la reducción 50% de kmediois, kmeans y gaussianas  
@@ -74,3 +74,18 @@ Probarlo si se puede, y mencionar en el trabajo que se probó pero no suponía u
 **Ambos**  
 > Funcion de seleccion de caracteristicas y reduccion de la dimensionalidad, posible uso de PCA y del estilo.   
 > Ensembles mas tochos estilo AdaBoost, mixtura de expertos etc.  
+
+## Segundo Reparto (últimos cambios)
+
+**Arturo**  
+> Mirar los estadisticos y coeficientes para hacer una conclusiones de los mejores modelos.
+> COmpletar conclusiones despues de ensemble methods.
+
+
+**Angel**  
+> Añadir metricas a MeanShift
+
+**Ambos**  
+> Conclusiones finales, y discusion de metricas.
+> Posibles mejoras.
+> bibliografia?
