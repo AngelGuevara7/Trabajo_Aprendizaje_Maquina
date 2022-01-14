@@ -86,6 +86,7 @@ Probarlo si se puede, y mencionar en el trabajo que se probó pero no suponía u
 > Añadir metricas a MeanShift
 
 **Ambos**  
+> Revisión conclusiones sobre la seleccion de caracteristicas.
 > Conclusiones finales, y discusion de metricas.
 > Posibles mejoras.
 > bibliografia?
