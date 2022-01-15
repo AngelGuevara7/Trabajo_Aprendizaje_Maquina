@@ -78,15 +78,15 @@ Probarlo si se puede, y mencionar en el trabajo que se probó pero no suponía u
 ## Segundo Reparto (últimos cambios)
 
 **Arturo**  
-> Mirar los estadisticos y coeficientes para hacer una conclusiones de los mejores modelos.
-> COmpletar conclusiones despues de ensemble methods.
+> Mirar los estadisticos y coeficientes para hacer una conclusiones de los mejores modelos.  
+> COmpletar conclusiones despues de ensemble methods. DONE   
 
 
 **Angel**  
 > Añadir metricas a MeanShift
 
 **Ambos**  
-> Revisión conclusiones sobre la seleccion de caracteristicas.
-> Conclusiones finales, y discusion de metricas.
-> Posibles mejoras.
-> bibliografia?
+> Revisión conclusiones sobre la seleccion de caracteristicas.  
+> Conclusiones finales, y discusion de metricas.  
+> Posibles mejoras.  
+> bibliografia?  
