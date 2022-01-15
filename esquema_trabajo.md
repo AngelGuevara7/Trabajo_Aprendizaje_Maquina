@@ -78,7 +78,7 @@ Probarlo si se puede, y mencionar en el trabajo que se probó pero no suponía u
 ## Segundo Reparto (últimos cambios)
 
 **Arturo**  
-> Mirar los estadisticos y coeficientes para hacer una conclusiones de los mejores modelos.  
+> Mirar los estadisticos y coeficientes para hacer una conclusiones de los mejores modelos. (AUC) 
 > COmpletar conclusiones despues de ensemble methods. DONE   
 
 
