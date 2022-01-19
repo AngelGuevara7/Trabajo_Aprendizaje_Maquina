@@ -90,3 +90,10 @@ Probarlo si se puede, y mencionar en el trabajo que se probó pero no suponía u
 > Conclusiones finales, y discusion de metricas.  
 > Posibles mejoras.  
 > bibliografia?  
+
+**Ultimos cambios** 
+
+> Añadir y comprobar tema normalizacion. Si no lo usamos, comentar por qué.  
+> Tabla resumen de estadísticos.  
+> Conclusiones finales, en las que indicamos posibles mejores y las elecciones finales.    
+> Ejecutar y volver a revisar todo.   
