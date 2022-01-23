@@ -14298,7 +14298,7 @@ Raw dimension is 66150 corresponding to 3.0 seconds of audio
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Observamos que tenemos 720 muestras de cada una de las seis clases. Además cada muestra tienen un total de 66150 características que se obtienen de los tres segundos de duración de la señal de audio.</p>
+<p>Observamos que tenemos 720 muestras de cada una de las seis clases. Además cada muestra tiene un total de 66150 características que se obtienen de los tres segundos de duración de la señal de audio.</p>
 <p>Podemos escuchar una de las muestras para comprobar que existe cierto ruido en ellas que dificultará la clasificación.</p>
 
 </div>
@@ -14519,7 +14519,7 @@ Resub. acc of a linear class.: 0.93 -&gt; 0.94
 <li><p>Por último, podríamos cortar por la línea horizontal de 3000, lo que nos daría una división en seis clusters.</p>
 </li>
 </ul>
-<p>Cualquiera de las tres decisiones puede ser buena, sin embargo hay factores que nos hace decidirnos por una. Si nos fijamos en el final del dendrograma, tenemos que la unión entre los grupos (105) y (131) se hace muy arriba. Esto quiere decir que la distancia entre ambos grupos es grande y, por tanto podría tener sentido que fueran lo suficientemente diferentes. Así, podríamos descartar el agrupamiento en tres clusters.</p>
+<p>Cualquiera de las tres decisiones puede ser buena, sin embargo hay factores que nos hacen decidirnos por una. Si nos fijamos en el final del dendrograma, tenemos que la unión entre los grupos (105) y (131) se hace muy arriba. Esto quiere decir que la distancia entre ambos grupos es grande y, por tanto podría tener sentido que fueran lo suficientemente diferentes. Así, podríamos descartar el agrupamiento en tres clusters.</p>
 <p>Ya solo nos quedarían el agrupamiento en cinco y en seis clusters. El factor decisivo en este caso es el número de elementos en cada grupo. Si nos quedamos con el de seis clusters, entonces tendríamos dos clusters (los de la izquierda) con muy pocos elementos en comparación con el resto de grupos.</p>
 <p>Por tanto, viendo el dendrograma nosotros diríamos que a priori puede haber cinco grupos distintos en nuestros datos.</p>
 
@@ -14840,7 +14840,7 @@ Indice de Silhouette: 0.31
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Primera-parte:-Estudio-de-los-m%C3%A9todos-para-la-reducci%C3%B3n-de-datos.">Primera parte: Estudio de los m&#233;todos para la reducci&#243;n de datos.<a class="anchor-link" href="#Primera-parte:-Estudio-de-los-m%C3%A9todos-para-la-reducci%C3%B3n-de-datos.">&#182;</a></h3><p>En el enunciado se pide que reduzcamos la cantidad de datos disponibles mediante alguna técnica de aprendizaje no supervisado, para así obtener un 50% compuesto de respresentantes de cada clase.<br>
+<h3 id="Primera-parte:-Estudio-de-los-m%C3%A9todos-para-la-reducci%C3%B3n-de-datos.">Primera parte: Estudio de los m&#233;todos para la reducci&#243;n de datos.<a class="anchor-link" href="#Primera-parte:-Estudio-de-los-m%C3%A9todos-para-la-reducci%C3%B3n-de-datos.">&#182;</a></h3><p>En el enunciado se pide que reduzcamos la cantidad de datos disponibles mediante alguna técnica de aprendizaje no supervisado, para así obtener un 50% compuesto de representantes de cada clase.<br>
 Así pues, en este apartado vamos a estudiar como se puede realizar la reducción del conjunto de entrenamiento al 50% de la mejor manera posible.<br>
 Las opciones que se barajan son:</p>
 <ul>
@@ -14851,7 +14851,7 @@ Las opciones que se barajan son:</p>
 <p>También contamos con dos estrategias:</p>
 <ol>
 <li>Podemos seleccionar tantos centroides (o medioides o gaussianas) como representantes queremos obtener (el 50% del total).  </li>
-<li>Podemos intenter ajustar los datos a un número óptimo de clusters, y seleccionar los puntos con menos distancia a estas posiciones centrales.  </li>
+<li>Podemos intenter ajustar los datos a un número óptimo de clusters, y seleccionar los puntos con menor distancia a estas posiciones centrales.  </li>
 </ol>
 <p>Primero investigaremos cual de estas dos estrategias parece tener mejores resultados, usando unos datos simulados.</p>
 
@@ -15002,7 +15002,7 @@ Las opciones que se barajan son:</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Las gráficas anteriores ejemplifican perfectamente el problema de intentar ajustar tantas gaussianas o centroides como representantes se desea obtener. El problema es que dichos centros se separarán entre si para no solapar, y esto hace que no obtengamos representantes sino que obtengamos un muestreo de los datos que solo atiende a pequeñas agrupaciones de puntos o quizá ni eso en muchos casos. Los representantes que obtenemos cuando escogemos de forma acertada el número de clusters, son muchos más adecuados, a excepción de los medoides cuyo resultado final es bastantes similar.</p>
+<p>Las gráficas anteriores ejemplifican perfectamente el problema de intentar ajustar tantas gaussianas o centroides como representantes se desea obtener. El problema es que dichos centros se separarán entre si para no solapar, y esto hace que no obtengamos representantes sino que obtengamos un muestreo de los datos que solo atiende a pequeñas agrupaciones de puntos o quizá ni eso en muchos casos. Los representantes que obtenemos cuando escogemos de forma acertada el número de clusters, son mucho más adecuados, a excepción de los medoides cuyo resultado final es bastantes similar.</p>
 <p>Sin embargo nuestro problema cuenta con una dimensionalidad altísima y no podemos realizar un estudio visual como el anterior, para determinar el número correcto de clusters. Además los clusters debido a la llamada <em>"maldición de la dimensionalidad"</em> estarán muy repartidos y posiblemente no tengan una forma muy compacta.<br>
 A este respecto valoramos dos opciones:</p>
 <ol>
@@ -15054,7 +15054,7 @@ A este respecto valoramos dos opciones:</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Segunda-parte:-Construccion-de-los-algoritmos.">Segunda parte: Construccion de los algoritmos.<a class="anchor-link" href="#Segunda-parte:-Construccion-de-los-algoritmos.">&#182;</a></h3><p>Vamos a intentar resolver el problema mediante algoritmos de aprendizaje supervisado.<br>
-A primera vista, el algoritmo que parece más indicado para la tarea es el de <strong>máquinas de vector soporte</strong> para clasificación, pues contamos con una dimensionalidad muy alta y (tras la reducción al 50%) la cantidad de ejemplo para entrenar el modelo no es muy grande.<br>
+A primera vista, el algoritmo que parece más indicado para la tarea es el de <strong>máquinas de vector soporte</strong> para clasificación, pues contamos con una dimensionalidad muy alta y (tras la reducción al 50%) la cantidad de ejemplos para entrenar el modelo no es muy grande.<br>
 Los modelos que vamos a probar son:</p>
 <ul>
 <li>Arboles  </li>
@@ -16446,7 +16446,7 @@ Los modelos que se probarán son:</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Recordemos que la diferencia entre bagging con árboles como predictores débiles y los random forest, es que los random forest solo consideran un subconjunto aleatorio de características en cada <em>split</em> del los árboles, mientras que bagging considera todas ellas en cada elección.</p>
+<p>Recordemos que la diferencia entre bagging con árboles como predictores débiles y los random forest, es que los random forest solo consideran un subconjunto aleatorio de características en cada <em>split</em> de los árboles, mientras que bagging considera todas ellas en cada elección.</p>
 
 </div>
 </div>
